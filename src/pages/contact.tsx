@@ -1,3 +1,4 @@
+import { API_URL } from '@/constants/constants';
 import { Box, Button, Container, TextField, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import styled from 'styled-components';
@@ -35,7 +36,7 @@ export default function Contact() {
 		}
 		setError(null);
 		try {
-			const res = await fetch('http://localhost:3001/api/contact', {
+			const res = await fetch(`${API_URL}/contact`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(formData)
@@ -55,7 +56,7 @@ export default function Contact() {
 					<Typography variant="h5">{responseMessage}</Typography>
 				) : (
 					<Box component="form" onSubmit={handleSubmit} noValidate>
-						<Typography variant="h4" gutterBottom>Contact Us</Typography>
+						<Typography variant="h4" gutterBottom>Contact</Typography>
 						{error && <Typography color="error">{error}</Typography>}
 						<TextField
 							label="Name"

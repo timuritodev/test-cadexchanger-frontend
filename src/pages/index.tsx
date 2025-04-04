@@ -38,11 +38,11 @@ export default function Home() {
 			<Header />
 			<ContentSection>
 				<TextContent>
-					<h1>Welcome to our website!</h1>
-					<p>This is the main page. Enjoy our content and don’t hesitate to reach out.</p>
+					<h1>Welcome to timuritodev website!</h1>
+					<p>This is the main page.</p>
 					<Link href="/contact" passHref>
 						<Button variant="contained" color="primary" sx={{ mt: 2 }}>
-							Contact Us
+							Contact
 						</Button>
 					</Link>
 				</TextContent>

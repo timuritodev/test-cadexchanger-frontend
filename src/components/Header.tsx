@@ -15,7 +15,7 @@ const Header = () => (
 				<Button color="inherit">Home</Button>
 			</Link>
 			<Link href="/contact" passHref>
-				<Button color="inherit">Contact Us</Button>
+				<Button color="inherit">Contact</Button>
 			</Link>
 		</Toolbar>
 	</StyledAppBar>
