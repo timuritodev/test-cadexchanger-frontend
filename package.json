@@ -10,7 +10,7 @@
 		"@emotion/react": "^11.10.0",
 		"@emotion/styled": "^11.10.0",
 		"@mui/material": "^5.11.0",
-		"next": "latest",
+		"next": "^15.2.4",
 		"react": "latest",
 		"react-dom": "latest",
 		"react-lite-youtube-embed": "^1.1.55",
