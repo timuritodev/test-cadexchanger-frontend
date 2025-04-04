@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import Link from 'next/link';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
@@ -40,7 +41,9 @@ export default function Home() {
 					<h1>Welcome to our website!</h1>
 					<p>This is the main page. Enjoy our content and don’t hesitate to reach out.</p>
 					<Link href="/contact" passHref>
-						<button>Contact Us</button>
+						<Button variant="contained" color="primary" sx={{ mt: 2 }}>
+							Contact Us
+						</Button>
 					</Link>
 				</TextContent>
 				<VideoWrapper>

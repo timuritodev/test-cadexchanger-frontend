@@ -9,7 +9,7 @@ const FooterContainer = styled.footer`
 
 const Footer = () => (
   <FooterContainer>
-    <p>&copy; {new Date().getFullYear()} test-cadexchanger-frontend.</p>
+    <p>&copy; test-cadexchanger-frontend.</p>
   </FooterContainer>
 );
 
