@@ -1,0 +1,25 @@
+{
+	"name": "test-cadexchanger-frontend",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.0",
+		"@emotion/styled": "^11.10.0",
+		"@mui/material": "^5.11.0",
+		"next": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-lite-youtube-embed": "^1.1.55",
+		"styled-components": "^5.3.6"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/react": "latest",
+		"@types/styled-components": "^5.1.34",
+		"typescript": "latest"
+	}
+}
